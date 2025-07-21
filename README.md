@@ -78,9 +78,4 @@ link test.obj minicrt.lib kernel32.lib /NODEFAULTLIB /entry:mini_crt_entry
 - Use GDB for debugging.
 - If you encounter crashes, check for calling convention issues (e.g., EBX register preservation in inline assembly).
 - The project has been debugged and tested in WSL2 Ubuntu 22.04.4 LTS.
-
----
-
-## License
-
-*(Add your preferred license here, e.g., MIT, GPL, or leave blank if undecided)* 
+- printf function can only support simple output now, use it carefully
