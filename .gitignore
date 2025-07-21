@@ -1,0 +1,14 @@
+# Object files
+*.o
+
+# Static libraries
+*.a
+
+# Executables (add your binary name if different)
+test
+
+# Core dumps
+core
+core.*
+
+test.txt
